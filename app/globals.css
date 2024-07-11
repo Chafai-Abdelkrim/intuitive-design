@@ -2,14 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html,
 body {
-  padding: 0;
-  margin: 0;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Arial, sans-serif;
+  line-height: 1.1;
+  letter-spacing: 0em;
 }
