@@ -20,7 +20,7 @@ const Masthead = () => {
           height={200 / 2}
         />
       </div>
-      <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex flex-col items-center justify-center flex-1">
+      <div className="text-black p-12 font-bold z-10 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex flex-col items-center justify-center flex-1">
         <h1 className="mb-6 text-4xl xl:text-5xl">Intuitive Design</h1>
         <h2 className="mb-4 text-2xl xl:text-3xl tracking-tight">
           <span>Design,</span> <span>done right.</span>
