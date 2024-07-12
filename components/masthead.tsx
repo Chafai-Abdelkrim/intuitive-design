@@ -1,3 +1,4 @@
+import { useRef, useContext, useState, useCallback } from "react";
 import Image from "next/image";
 
 const Masthead = () => {
