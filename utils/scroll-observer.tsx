@@ -1,3 +1,5 @@
+"use client"
+
 import { createContext, useCallback, useEffect, useState } from "react";
 
 interface ScrollValue {
@@ -6,7 +8,7 @@ interface ScrollValue {
 
 export const ScrollContext = createContext<ScrollValue>({ scrollY: 0 });
 
-const ScrollObserver = (children: React.ReactNode) => {
+const ScrollObserver = ({children}: {children: React.ReactNode}) => {
   const [scrollY, setScrollY] = useState(0);
   const handleScroll = useCallback(() => {
     setScrollY(window.scrollY);
