@@ -4,14 +4,14 @@ const AboutUs = () => {
   return (
     <section className={`flex flex-col bg-white py-20 text-3xl md:text-4xl`}>
       <div className="container mx-auto px-11">
-        <p className="leading-tight max-w-5xl mx-auto text-xl tracking-tight">
+        <p className="leading-tight max-w-5xl mx-auto text-3xl md:text-5xl tracking-tight">
           De la conception à la réalisation,{" "}
           <strong>
             Intuitive Design apporte une approche globale et une vision à 360°
             pour vous accompagner dans toutes les étapes de vos projets de
             communication .
           </strong>
-          Plus de 50 clients nous font confiance. Alors pourquoi pas vous !
+           Plus de 50 clients nous font confiance. Alors pourquoi pas vous !
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-28">
