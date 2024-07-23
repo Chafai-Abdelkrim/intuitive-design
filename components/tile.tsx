@@ -1,3 +1,5 @@
+"use client";
+
 import { ScrollContext } from "@/utils/scroll-observer";
 import { useRef, useContext, createContext } from "react";
 
@@ -20,7 +22,7 @@ export const TileWrapper = ({ children, numOfPages }: WrapperProps) => {
   const { scrollY } = useContext(ScrollContext);
   const refContainer = useRef<HTMLDivElement>(null);
 
-  let currentPage = 0; 
+  let currentPage = 0;
 
   const { current: elContainer } = refContainer;
   if (elContainer) {
@@ -44,3 +46,11 @@ export const TileWrapper = ({ children, numOfPages }: WrapperProps) => {
     </TileContext.Provider>
   );
 };
+
+export const TileBackground = ({ children }: { children?: React.ReactNode }) => (
+  <div className="absolute h-full w-full">{children}</div>
+);
+
+export const TileContent = ({ children }: { children: React.ReactNode }) => (
+  <div className="sticky top-0 h-screen overflow-hidden">{children}</div>
+);
