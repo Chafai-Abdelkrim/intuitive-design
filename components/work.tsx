@@ -61,3 +61,19 @@ export const WorkRight = ({
     </div>
   );
 };
+
+interface LinkProps {
+  children?: React.ReactNode;
+  href: string;
+}
+
+export const WorkLink = ({ href, children }: LinkProps) => (
+  <Link
+    href={href}
+    target="_blank"
+    rel="noreferrer"
+    className="underline underline-offset-8 decoration-1"
+  >
+    {children}
+  </Link>
+);
