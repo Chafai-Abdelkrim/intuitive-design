@@ -20,18 +20,20 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>We Built</div>
+                <div>
+                  <WorkLink href="#">Atlantic Hotel</WorkLink>
+                </div>
                 <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                  <WorkLink href="#">Pink panda</WorkLink>&apos;s app
+                  Brande, Design graphique, Logo, Catalogue
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
-                  src="/assets/works/panda.png"
+                  src="/assets/works/Atlantic-Hotel.jpg"
                   layout="responsive"
                   width={840}
                   height={1620}
-                  alt=""
+                  alt="Atlantic Hotel"
                 />
               </WorkRight>
             </WorkContainer>
@@ -44,18 +46,20 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>We made</div>
+                <div>
+                  <WorkLink href="#">Natural Beauty Rituals</WorkLink>
+                </div>
                 <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                  <WorkLink href="#">stackwallet</WorkLink>&nbsp;faster
+                  Brande, Design graphique, Logo, Packaging
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
-                  src="/assets/works/stackswallet.png"
+                  src="/assets/works/NRB-creme.jpg"
                   layout="responsive"
                   width={840}
                   height={1620}
-                  alt=""
+                  alt="NRB creme"
                 />
               </WorkRight>
             </WorkContainer>
@@ -68,18 +72,20 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>We help</div>
+                <div>
+                  <WorkLink href="#">ENSA AGADIR</WorkLink>
+                </div>
                 <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                  <WorkLink href="#">showtime</WorkLink> ship faster.
+                  Catalogue, Design graphique, Communication
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
-                  src="/assets/works/showtime.png"
+                  src="/assets/works/ENSA.jpg"
                   layout="responsive"
                   width={840}
                   height={1620}
-                  alt=""
+                  alt="ENSA"
                 />
               </WorkRight>
             </WorkContainer>
