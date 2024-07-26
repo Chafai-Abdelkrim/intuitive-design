@@ -22,11 +22,11 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>
+                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
                   <WorkLink href="#">Atlantic Hotel</WorkLink>
                 </div>
-                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                  Brande, Design graphique, Logo, Catalogue
+                <div className="text-2xl">
+                  Brande, Design graphique, Logo, Catalogue.
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
@@ -48,19 +48,19 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>
+                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
                   <WorkLink href="#">Natural Beauty Rituals</WorkLink>
                 </div>
-                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                  Brande, Design graphique, Logo, Packaging
+                <div className="text-2xl">
+                  Brande, Design graphique, Logo, Packaging.
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
                   src="/assets/works/NRB-creme.jpg"
                   layout="responsive"
-                  width={840}
-                  height={1620}
+                  width={1000}
+                  height={800}
                   alt="NRB creme"
                 />
               </WorkRight>
@@ -74,11 +74,11 @@ const Works = () => {
           renderContent={({ progress }) => (
             <WorkContainer>
               <WorkLeft progress={progress}>
-                <div>
+                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
                   <WorkLink href="#">ENSA AGADIR</WorkLink>
                 </div>
-                <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                  Catalogue, Design graphique, Communication
+                <div className="text-2xl">
+                  Catalogue, Design graphique, Communication.
                 </div>
               </WorkLeft>
               <WorkRight progress={progress}>
