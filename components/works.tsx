@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Tile, TileBackground, TileContent, TileWrapper } from "./tile";
 import {
