@@ -1,3 +1,5 @@
+"use client";
+
 import { SizeContext } from "@/utils/size-observer";
 import { useContext, useRef } from "react";
 
@@ -32,3 +34,5 @@ const SliderContainer = ({
     </div>
   );
 };
+
+export default SliderContainer;
