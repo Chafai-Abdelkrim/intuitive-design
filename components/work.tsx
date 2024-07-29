@@ -15,7 +15,7 @@ export const WorkBackground = () => (
 
 export const WorkLeft = ({
   children,
-  progress,
+  progress, 
 }: {
   children?: React.ReactNode;
   progress: number;
