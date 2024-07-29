@@ -1,5 +1,6 @@
 const TrustedBy = () => (
   <section className="bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32">
+    <div className="flex-1"></div>
     <div className="flex flex-col justify-center items-center">
         <h3 className="text-xl mb-10 font-bold text-center">
             <span className="whitespace-nowrap">Trusted By</span>{' '}

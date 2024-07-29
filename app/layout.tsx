@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ScrollObserver from "@/utils/scroll-observer";
+import SizeObserver from "@/utils/size-observer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ScrollObserver>
-          {children}
-        </ScrollObserver>
-        </body>
+        <SizeObserver>
+          <ScrollObserver>{children}</ScrollObserver>
+        </SizeObserver>
+      </body>
     </html>
   );
 }
