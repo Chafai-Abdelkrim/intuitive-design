@@ -11,6 +11,27 @@ const ClientLogos = () => (
         alt=""
         objectFit="contain"
       />
+      <Image
+        src={"/assets/trustedby/img1.png"}
+        width={150}
+        height={50}
+        alt=""
+        objectFit="contain"
+      />
+      <Image
+        src={"/assets/trustedby/img1.png"}
+        width={150}
+        height={50}
+        alt=""
+        objectFit="contain"
+      />
+      <Image
+        src={"/assets/trustedby/img1.png"}
+        width={150}
+        height={50}
+        alt=""
+        objectFit="contain"
+      />
     </SliderContainer>
   </>
 );
