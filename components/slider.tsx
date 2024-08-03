@@ -1,7 +1,8 @@
 "use client";
 
 import { SizeContext } from "@/utils/size-observer";
-import { useContext, useRef } from "react";
+import useAnimationFrame from "@/utils/use-animation-frame";
+import { useCallback, useContext, useRef } from "react";
 
 interface Props {
   children: React.ReactNode;
@@ -23,6 +24,22 @@ const SliderContainer = ({
 
   const enabled = innerWidth < contentWidth;
 
+  useAnimationFrame(
+    enabled,
+    useCallback(() => {
+      const { current: elContainer } = refContainer;
+      const { current: elContent } = refContent;
+      if (elContainer && elContent) {
+        refScrollX.current += 0.5;
+        elContainer.scrollLeft = refScrollX.current;
+        if (elContainer.scrollLeft >= elContent.clientWidth) {
+          refScrollX.current = 0;
+          elContainer.scrollLeft = 0;
+        }
+      }
+    }, [])
+  );
+
   return (
     <div
       ref={refContainer}
@@ -34,5 +51,21 @@ const SliderContainer = ({
     </div>
   );
 };
+
+interface ItemProps {
+  children: React.ReactNode;
+  width: number;
+}
+
+export const SliderItem = ({ children, width }: ItemProps) => (
+  <div
+    className="inline-flex justify-center items-center mx-4 "
+    style={{
+      width,
+    }}
+  >
+    {children}
+  </div>
+);
 
 export default SliderContainer;
