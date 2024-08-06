@@ -48,6 +48,7 @@ const SliderContainer = ({
       <div ref={refContent} className="inline-block">
         {children}
       </div>
+      <div className={enabled ? "inline-block" : "hidden"}>{children}</div>
     </div>
   );
 };
