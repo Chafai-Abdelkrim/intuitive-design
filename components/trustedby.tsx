@@ -1,4 +1,5 @@
 import ClientLogos from "./client-logos";
+import Testimonials from "./testimonials";
 
 const TrustedBy = () => (
   <section className="bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32">
@@ -15,7 +16,7 @@ const TrustedBy = () => (
             <h3 className="text-3xl lg:text-4xl tracking-tight text-center px-10 !leading-[3.5rem]">We belive in good comunication and a full transparent procces.</h3>
         </div>
     </div>
-    <div>Testimonials.</div>
+    <Testimonials />
     <div className="flex-1 bg-black"></div>
   </section>
 );

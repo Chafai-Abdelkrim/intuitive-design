@@ -33,7 +33,7 @@ const ClientLogos = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image
-          src={"/assets/trustedby/ewa.ico"}
+          src={"/assets/trustedby/ewa.png"}
           width={90}
           height={50}
           alt="ewa"
