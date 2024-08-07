@@ -1,3 +1,5 @@
+"use client"
+
 import { useCallback, useContext } from "react";
 import { CarouselContext } from "./carousel";
 import styles from "../app/carousel.module.css";
@@ -13,7 +15,7 @@ const CarouselItem = ({ children, index }: Props) => {
   const handleClick = useCallback(() => {
     if (emblaApi === undefined) return;
     emblaApi.scrollTo(index);
-  }, [emblaApi, index]);
+  }, [emblaApi, index]);    
 
   return (
     <div
