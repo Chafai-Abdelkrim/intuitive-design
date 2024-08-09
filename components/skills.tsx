@@ -34,7 +34,7 @@ const Skills = () => {
   }
 
   return (
-    <div ref={refContainer} className="bg-black text-white">
+    <div ref={refContainer} className="bg-black text-yellow-300">
       <div className="min-h-screen max-w-6xl mx-auto px-10 lg:px-20 py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-4xl md:text-6xl tracking-tight font-semibold">
         <div className="leading-[1.15]">
           <div
