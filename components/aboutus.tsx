@@ -6,10 +6,10 @@ const AboutUs = () => {
       <div className="container mx-auto px-11">
         <p className="leading-tight max-w-5xl mx-auto text-3xl md:text-5xl tracking-tight">
           De la conception à la réalisation,{" "}
-          <strong>
+          <strong className="text-yellow-300">
             Intuitive Design apporte une approche globale et une vision à 360°
             pour vous accompagner dans toutes les étapes de vos projets de
-            communication .
+            communication.
           </strong>
            Plus de 50 clients nous font confiance. Alors pourquoi pas vous !
         </p>
