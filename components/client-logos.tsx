@@ -6,10 +6,10 @@ const ClientLogos = () => (
     <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
       <SliderItem width={150}>
         <Image
-          src={"/assets/trustedby/ibnzohr.png"}
+          src={"/assets/trustedby/Logo-Bayer.png"}
           width={150}
           height={50}
-          alt="ibn zohr"
+          alt="Bayer logo"
           objectFit="contain"
         />
       </SliderItem>

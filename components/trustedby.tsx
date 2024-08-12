@@ -9,7 +9,7 @@ const TrustedBy = () => (
     <div className="flex-1"></div>
     <div className="flex flex-col justify-center items-center">
       <h3 className="text-xl mb-10 px-4 font-bold text-center">
-        <span className="whitespace-nowrap">NOS CLIENTS</span>{" "}
+        <div className="text-3xl pb-4 whitespace-nowrap">NOS CLIENTS</div>
         <span className="whitespace-normal">
           Plus de 50 clients nous font confiance.
         </span>
