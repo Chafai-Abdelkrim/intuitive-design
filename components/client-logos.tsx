@@ -15,68 +15,103 @@ const ClientLogos = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image
-          src={"/assets/trustedby/ensa.png"}
+          src={"/assets/trustedby/Atlantic-hotel-logo.png"}
           width={150}
           height={50}
-          alt="ENSA"
-          objectFit="contain"
-        />
-      </SliderItem>
-      <SliderItem width={130}>
-        <Image
-          src={"/assets/trustedby/atlantic-hotel.png"}
-          width={120}
-          height={50}
-          alt="Atlantic Hotel"
+          alt="Atlantic hotel logo"
           objectFit="contain"
         />
       </SliderItem>
       <SliderItem width={150}>
         <Image
-          src={"/assets/trustedby/ewa.png"}
-          width={90}
+          src={"/assets/trustedby/Damsa-hover.png"}
+          width={150}
           height={50}
-          alt="ewa"
-          objectFit="contain"
-        />
-      </SliderItem>
-      <SliderItem width={120}>
-        <Image
-          src={"/assets/trustedby/seminis.jpg"}
-          width={120}
-          height={50}
-          alt="seminis"
+          alt="Damsa logo"
           objectFit="contain"
         />
       </SliderItem>
       <SliderItem width={150}>
         <Image
-          src={"/assets/trustedby/comaprim.png"}
+          src={"/assets/trustedby/logo_UIZ.png"}
           width={150}
           height={50}
-          alt="seminis"
-          objectFit="contain"
-        />
-      </SliderItem>
-      <SliderItem width={90}>
-        <Image
-          src={"/assets/trustedby/elephant-vert.jpg"}
-          width={120}
-          height={50}
-          alt="elephant vert"
+          alt="ibn zohr logo"
           objectFit="contain"
         />
       </SliderItem>
       <SliderItem width={150}>
         <Image
-          src={"/assets/trustedby/acacia-decor.jpg"}
+          src={"/assets/trustedby/logo-Bg-invest.png"}
           width={150}
           height={50}
-          alt="seminis"
+          alt="BG invest logo"
           objectFit="contain"
         />
       </SliderItem>
-      
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/Logo-Clause.png"}
+          width={150}
+          height={50}
+          alt="Clause logo"
+          objectFit="contain"
+        />
+      </SliderItem>
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/Logo-ELEPHANT-VERT.png"}
+          width={150}
+          height={50}
+          alt="elephant vert logo"
+          objectFit="contain"
+        />
+      </SliderItem>
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/logo-ewa.png"}
+          width={150}
+          height={50}
+          alt="EWA logo"
+          objectFit="contain"
+        />
+      </SliderItem>
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/logo-ONP.png"}
+          width={150}
+          height={50}
+          alt="ONP logo"
+          objectFit="contain"
+        />
+      </SliderItem>
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/Logo-Orbis.png"}
+          width={150}
+          height={50}
+          alt="Orbis logo"
+          objectFit="contain"
+        />
+      </SliderItem>
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/Logo-SEMINIS.png"}
+          width={150}
+          height={50}
+          alt="Seminis logo"
+          objectFit="contain"
+        />
+      </SliderItem>
+      <SliderItem width={150}>
+        <Image
+          src={"/assets/trustedby/Logo-syngenta.png"}
+          width={150}
+          height={50}
+          alt="Syngenta logo"
+          objectFit="contain"
+        />
+      </SliderItem>
     </SliderContainer>
   </>
 );
