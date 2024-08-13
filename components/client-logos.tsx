@@ -3,7 +3,7 @@ import SliderContainer, { SliderItem } from "./slider";
 
 const ClientLogos = () => (
   <>
-    <SliderContainer className="max-w-[1200px]" contentWidth={2000} initialOffsetX={0}>
+    <SliderContainer className="" contentWidth={2000} initialOffsetX={0}>
       <SliderItem width={150}>
         <Image
           src={"/assets/trustedby/Logo-Bayer.png"}
