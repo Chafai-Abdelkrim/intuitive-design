@@ -43,7 +43,7 @@ const SliderContainer = ({
   return (
     <div
       ref={refContainer}
-      className={`slider-container overflow-x-hidden whitespace-nowrap max-w-[1200px] pointer-events-none ${className}`}
+      className={`slider-container overflow-x-hidden whitespace-nowrap max-w-full pointer-events-none ${className}`}
     >
       <div ref={refContent} className="inline-block">
         {children}
